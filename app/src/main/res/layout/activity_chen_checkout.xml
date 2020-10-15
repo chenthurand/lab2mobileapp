@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".chenthuranCheckoutActivity" >
+
+    <TextView
+        android:id="@+id/chenCheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/checkoutheader"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/chenHouseselectionheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/houseselectionheader"
+        android:textColor="#E91E63"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/chenRadiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/chenpayementHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/paymentHeading"
+        android:textColor="#E91E63"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/chenradiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/chencashpayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cashpayment"
+            android:textColor="#E91E63" />
+
+        <RadioButton
+            android:id="@+id/chencreditpayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/creditpayment"
+            android:textColor="#E91E63" />
+
+        <RadioButton
+            android:id="@+id/chendebitpayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/debitpayment"
+            android:textColor="#E91E63" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/chenckbnxtbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/checkoutbtn"
+        android:textColor="#E91E63"
+        android:textSize="15dp" />
+
+</LinearLayout>
